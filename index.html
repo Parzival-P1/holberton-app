@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My WebPage</title>
+
+    <link href="https://apply.holbertonschool.com/level2/school.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Roboto+Mono:wght@400;600;700&family=Roboto+Slab:wght@400;600&display=swap" rel="stylesheet"> <!-- Fonts -->
+
+    <script src="behavior.js"></script>
+  </head>
+  <body class="works_on_smartphone">
+
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v12.0" nonce="RdPhQ2lQ"></script>
+    
+    <header>
+      <div class="right">
+        <li class="logo">&#128526;</li>
+        <li class="logo">&#129295;</li>
+        <li class="logo">&#128522;</li>
+        <li class="logo">&#128374;</li>
+        <li class="logo">&#129295;</li>
+      </div>
+
+      <div class="right">
+        <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Compartir</a></div> <!-- facebook -->
+
+        <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> <!-- Twitter -->
+      </div>
+
+      <ul>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/tweets.html">Tweets</a></li>
+        <li><a href="/about.html">About</a></li>
+      </ul>
+    </header>
+
+    <main>
+
+      <article>
+
+        <h1>Welcome!</h1>
+        <h2>Make a choice</h2>
+        <h3>...</h3>
+
+        <div class="container">
+          <a href="/about.html"><img class="small" id="choose"  src="https://i.ibb.co/6ZwDYyR/red-pill.png" alt="red-pill"></a>
+          <a href="/thematriz.html"><img class="small" id="choose" src="https://i.ibb.co/pfz9rQb/holberton1-logo.png" alt="holberton-logo"></a>
+          <a href="/tweets.html"><img class="small" id="choose" src="https://i.ibb.co/5YtHQV8/blue-pill.png" alt="blue-pill"></a>
+        </div>
+
+        <p>Follow</p>
+        <p>The</p>
+        <p>White Rabbit</p>
+        <p>...</p>
+
+        <div class="rabbit">
+          <img class="small" id="smart_thumbnail" src="https://i.ibb.co/z403xTJ/white-rabbit3.png" alt="white-rabbit3">
+        </div>
+        
+      </article>
+
+      <aside>
+        <div id="disqus_thread"></div>
+        <script>
+            /**
+            *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+            *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+            
+            var disqus_config = function () {
+            this.page.url = 'https://web4holberton.disqus.com/';  // Replace PAGE_URL with your page's canonical URL variable
+            this.page.identifier = 'for-holberton'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+            };
+            
+            (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+            s.src = 'https://web4holberton.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+      </aside>
+      
+    </main>
+    
+    <footer>Made by Francisco J. Hernández Trejo for <a href="https://apply.holbertonschool.com" target="_blank">Holberton School</a>.</footer>
+  
+  </body>
+</html>
